@@ -1,0 +1,45 @@
+#conteudo  {
+    width: 800px;
+    height: 1000px;
+    background-color: khaki;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    width: 800px;
+    height: 300px;
+    background-color: azure;
+    display: flex;
+}
+
+#fotodeperfil {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(176, 213, 113);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#textodeperfil {
+    width: 500px;
+    height: 300px;
+    background-color: darkseagreen;
+}
+
+#destaques {
+    height: 150px;
+    width: 800px;
+    background-color: lightpink;
+}
+
+#feed {
+    height: 1000px;
+    width: 800px;
+    background-color: antiquewhite;
+}
+
