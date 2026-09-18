@@ -29,6 +29,8 @@ img {
     width: 500px;
     height: 300px;
     background-color: darkseagreen;
+    padding: 20px 50px;
+    box-sizing: border-box;
 }
 
 #destaques {
@@ -43,3 +45,37 @@ img {
     background-color: antiquewhite;
 }
 
+#span-seguindo {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.juntinhos {
+    margin: 0;
+}
+
+#pill {
+    background-color: lightgray;
+    padding: 8px;
+    border-radius: 20px;
+
+    img {
+        margin-bottom: -3px;
+    }
+}
+
+#essenao {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#icone-link {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-size: 12px;
+    background-image: url("link-icon-png-14.png");
+}
