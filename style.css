@@ -21,7 +21,8 @@
     justify-content: center;
 }
 
-img {
+#fotodeperfil img,
+.destaque img{
     border-radius: 50%;
 }
 
@@ -37,6 +38,9 @@ img {
     height: 150px;
     width: 800px;
     background-color: lightpink;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 #feed {
@@ -78,4 +82,24 @@ a {
     display: inline-block;
     background-size: 12px;
     background-image: url("link-icon-png-14.png");
+}
+
+.destaque {
+    width: 120px;
+    height: 150px;
+    background-color: #fafacf;
+    padding: 10px;
+    box-sizing: border-box;
+
+    p {
+        margin-top: 0;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+#feed {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 10px;
 }
